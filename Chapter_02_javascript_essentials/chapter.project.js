@@ -20,6 +20,15 @@ Output the results. Then, calculate and log the BMI: this is equal to weight (in
 divided by squared height (in meters). Output the results to the console
 */
 
+let height_inches=1;
+let weight_pounds=3;
 
+// convert in centimeters and kilos
+let height_centimeters=height_inches*2.54
+let weight_kilos=weight_pounds/2.2046
+
+// BMI calculate 
+let bmi=weight_kilos/((height_centimeters*100)**0.5)
+console.log("The BMI is: ",bmi)
 
 // Self-check quiz

@@ -15,3 +15,9 @@ console.log(typeof val2);
 
 let myNum = 1000;
 console.log(typeof myNum);
+
+let myFloat = 3.14;
+console.log(typeof myFloat);
+
+let bool = true;
+console.log(typeof bool);
